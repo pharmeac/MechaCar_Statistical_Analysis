@@ -43,4 +43,12 @@ Lot 3
 ![image](https://user-images.githubusercontent.com/109913335/206625094-122feb55-3f2a-4060-9a08-1eb7b6e62f7f.png)
 
 
+## Study Design: MechaCar vs Competition
+There are a multitude of factors that can be analyzed to compare MechaCar to its competitors. For this analyis, we will focus in a specific demographic, the suburban parent. Our null hypothesis is that MechaCar has similiar city fuel efficiency as its competitors for its Minivan model. We will compare MechaCar to its competitors by analyzing city fuel efficiency in a multiple linear regression.
+
+Our statistical tests and data would look like the below for the city fuel efficiency analysis.
+1. Generate multiple linear regression model
+> lm(MechCar_citympg ~ Competitor1_citympg + Competitor2_citympg + Competitor3_citympg + Competitor4_citympg + Competitor5_citympg,data=datacollected) 
+2. Generate summary statistics
+>summary(llm(MechCar_citympg ~ Competitor1_citympg + Competitor2_citympg + Competitor3_citympg + Competitor4_citympg + Competitor5_citympg, data=datacollected) 
 
